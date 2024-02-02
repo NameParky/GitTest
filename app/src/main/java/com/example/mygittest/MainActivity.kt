@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         var gitText = binding.gitText
         gitText.setOnClickListener {
-            gitText.text = "깃프랜치에서 추가했습니다!."
+            gitText.text = "이렇게하면 충돌나겠지?."
             gitText.text = "깃테스트 텍스트 또또 변경!!"
         }
     }
