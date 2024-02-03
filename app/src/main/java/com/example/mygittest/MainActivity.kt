@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         var gitText = binding.gitText
         gitText.setOnClickListener {
             // 이부분이 수정될 곳입니다.
-            gitText.setText("원본 출동용 수정.")
+            gitText.setText("수정한 git branch입니다.")
             gitText.text = "깃테스트 텍스트 또또 변경!!"
         }
     }
