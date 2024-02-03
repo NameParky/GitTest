@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         var gitText = binding.gitText
         gitText.setOnClickListener {
-            gitText.setText("여기는 메인입니다.")
+            // 이부분이 수정될 곳입니다.
+            gitText.setText("여기는 gitTest 브랜치입니다.")
             gitText.text = "깃테스트 텍스트 또또 변경!!"
         }
     }
