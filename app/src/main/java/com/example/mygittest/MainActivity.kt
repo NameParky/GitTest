@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         gitText.setOnClickListener {
             // 이부분이 수정될 곳입니다.
             gitText.setText("메인에서 수정했다!!!.")
-            gitText.text = "깃테스트 텍스트 또또 변경!!"
+            gitText.text = "테스팅 브랜치에 커밋하기"
         }
     }
 }
