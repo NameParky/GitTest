@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             gitText.setText("메인에서 수정했다!!!.")
             gitText.text = "깃테스트 텍스트 또또 변경!!"
             gitText.text = "클론이후 텍스트 또또또 변경!!"
+            gitText.text = "Pull로 가져와야할 코드!!"
         }
     }
 }
